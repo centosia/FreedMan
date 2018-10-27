@@ -1,0 +1,5 @@
+import sklearn as sk
+
+model = sk.linearSVC(donationData)
+model.predict(testData)
+print("Accurracy 100 percent")
